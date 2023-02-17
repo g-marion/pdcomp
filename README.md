@@ -8,6 +8,7 @@ Contents:
 4. SPECIFIC TO BIGBANG4 USERS
 
 1. GENERAL DESCRIPTION
+
 Program was originally created by George Bryan (NCAR) and modified by
 Jeff Trapp (UIUC) and Geoff Marion (NSSL). Similar code is implemented 
 in CM1, but it is not set up for runs using distributed memory 
