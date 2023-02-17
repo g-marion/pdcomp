@@ -8,7 +8,7 @@ Contents:
 4. SPECIFIC TO BIGBANG4 USERS
 
 
-..GENERAL DESCRIPTION..
+...GENERAL DESCRIPTION...
 
 Program was originally created by George Bryan (NCAR) and modified by
 Jeff Trapp (UIUC) and Geoff Marion (NSSL). Similar code is implemented 
@@ -31,7 +31,7 @@ for batch job submission script, if the computer used supports that
 use case.
 
 
-..IMPORTANT NOTES..
+...IMPORTANT NOTES...
 - Program is currently set up to read/write netcdf output. Original
   program only read/write grads.
 - DO NOT RUN PDCOMP OVER A SUBDOMAIN IN CM1. pdcomp uses information
@@ -59,7 +59,7 @@ use case.
   representative of this new base state.
 
 
-..BEFORE YOU RUN..
+...BEFORE YOU RUN...
 
 If not already done, make sure to set the LD_LIBRARY_PATH environment
 variable within your .bashrc (or whatever is relevant for the shell
@@ -69,7 +69,7 @@ Also, in the run directory, create a symbolic link to the netcdf.mod
 file on your machine.
 
 
-..SPECIFIC TO BIGBANG4 USERS..
+...SPECIFIC TO BIGBANG4 USERS...
 
 Use the following for LD_LIBRARY_PATH in .bashrc:
 export LD_LIBRARY_PATH={$LD_LIBRARY_PATH}:/usr/local/netcdf-4.8.1/lib
