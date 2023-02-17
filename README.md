@@ -60,6 +60,7 @@ use case.
 
 
 ..BEFORE YOU RUN..
+
 If not already done, make sure to set the LD_LIBRARY_PATH environment
 variable within your .bashrc (or whatever is relevant for the shell
 your machine is using).
@@ -69,6 +70,7 @@ file on your machine.
 
 
 ..SPECIFIC TO BIGBANG4 USERS..
+
 Use the following for LD_LIBRARY_PATH in .bashrc:
 export LD_LIBRARY_PATH={$LD_LIBRARY_PATH}:/usr/local/netcdf-4.8.1/lib
 
