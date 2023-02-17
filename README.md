@@ -18,7 +18,7 @@ until that code is better-integrated into CM1, though could be used
 for post-processing if preferred.
 
 Some modifications have been made to the original program for ease
-of use (largely inspired by or taken from a similar program by Ryan 
+of use (largely inspired by a similar program by Ryan 
 Hastings), including some reconfiguring of the program to use an input
 namelist, adding some output variables for pressure perturbations
 and horizontal forcings, and adding a Makefile to make compiling the
