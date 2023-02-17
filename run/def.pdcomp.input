@@ -1,0 +1,28 @@
+!----------------------------!
+!  Input for pdcomp          !
+!----------------------------!
+
+&inputs
+  infile = '/work/geoffrey.marion/cm1runs/03-30-2022-21/htrout/cm1out_101.nc',  ! Filepath for CM1 output
+  outfile = '/work/geoffrey.marion/cm1runs/03-30-2022-21/htrout/pdcomp_101.nc', ! Filepath for pdcomp output
+
+  ! Grid information
+  nx = 2016    ! Number of x-grid points in domain
+  ny = 2016    ! Number of y-grid points in domain
+  nz = 166     ! Number of z-grid points in domain
+  dx = 100     ! x-grid spacing
+  dy = 100     ! y-grid spacing
+
+  ! Microphysical parameterization
+  ! Currently only set up to use Morrison (ptype = 5) and 
+  ! NSSL double-moment (ptype = 27).
+  ptype = 27
+
+  ! Boundary conditions:   1 = periodic ;   2 = open ;   3 = rigid wall
+  wbc = 2    ! West boundary condition
+  ebc = 2    ! East boundary condition
+  sbc = 1    ! South boundary condition
+  nbc = 1    ! North boundary condition
+ 
+/
+
