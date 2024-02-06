@@ -1,7 +1,7 @@
 #!/bin/bash
 
-st=101  # Starting CM1 output number for looping
-en=170  # Ending CM1 output number for looping
+st=1  # Starting CM1 output number for looping
+en=10  # Ending CM1 output number for looping
 
 for(( i=$st; i<=$en; i++ )); do
   time
