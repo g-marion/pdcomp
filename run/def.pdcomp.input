@@ -3,8 +3,8 @@
 !----------------------------!
 
 &inputs
-  infile = '/work/geoffrey.marion/cm1runs/03-30-2022-21/htrout/cm1out_101.nc',  ! Filepath for CM1 output
-  outfile = '/work/geoffrey.marion/cm1runs/03-30-2022-21/htrout/pdcomp_101.nc', ! Filepath for pdcomp output
+  infile = '/cm1_output_file_location/cm1out_001.nc',  ! Filepath for CM1 output
+  outfile = '/cm1_output_file_location/pdcomp_001.nc', ! Filepath for pdcomp output
 
   ! Grid information
   nx = 2016    ! Number of x-grid points in domain
@@ -25,4 +25,3 @@
   nbc = 1    ! North boundary condition
  
 /
-
