@@ -1,15 +1,15 @@
 #!/bin/bash
 
-st=101
-en=170
+st=1  # Starting CM1 output number for looping
+en=10  # Ending CM1 output number for looping
 
 for(( i=$st; i<=$en; i++ )); do
   time
 
-  cp /home/geoffrey.marion/pdcomp/run/def.pdcomp.input /home/geoffrey.marion/pdcomp/run/pdcomp.input
+  cp /path/to/pdcomp/directory/run/def.pdcomp.input /path/to/pdcomp/directory/pdcomp/run/pdcomp.input
 
-  sed -i "s/cm1out_101/cm1out_$i/g" /home/geoffrey.marion/pdcomp/run/pdcomp.input
-  sed -i "s/pdcomp_101/pdcomp_$i/g" /home/geoffrey.marion/pdcomp/run/pdcomp.input
+  sed -i "s/cm1out_000001/cm1out_$i/g" /path/to/pdcomp/directory/pdcomp/run/pdcomp.input 
+  sed -i "s/pdcomp_000001/pdcomp_$i/g" /path/to/pdcomp/directory/pdcomp/run/pdcomp.input
 
   ./pdcomp.exe
   wait
