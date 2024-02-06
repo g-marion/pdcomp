@@ -3,8 +3,8 @@
 !----------------------------!
 
 &inputs
-  infile = '/path/to/cm1/output/directory/cm1out_001.nc',  ! Filepath for CM1 output
-  outfile = '/path/to/pdcomp/output/directory/pdcomp_001.nc', ! Filepath for pdcomp output
+  infile = '/path/to/cm1/output/directory/cm1out_000001.nc',  ! Filepath for CM1 output
+  outfile = '/path/to/pdcomp/output/directory/pdcomp_000001.nc', ! Filepath for pdcomp output
 
   ! Grid information
   nx = 2016    ! Number of x-grid points in domain
