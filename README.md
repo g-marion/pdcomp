@@ -59,6 +59,7 @@ use case.
 
 
 3. BEFORE YOU RUN:
+- Modify range of desired CM1 output times to perform analysis in run_pdcomp.bash
 - Modify the filepaths in the def.pdcomp.input file and run_pdcomp.bash script
   to reflect your pdcomp and CM1 output directories.
 - If not already done, make sure to set the LD_LIBRARY_PATH environment
