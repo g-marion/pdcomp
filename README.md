@@ -10,7 +10,7 @@ Contents:
 
 1. GENERAL DESCRIPTION
 This program was originally created by George Bryan (NCAR) and modified by
-Jeff Trapp (UIUC) and Geoff Marion (CIWRO). Similar code is implemented 
+Jeff Trapp (UIUC) and Geoff Marion. Similar code is implemented 
 in CM1, but it is not set up for runs using distributed memory 
 (the majority of CM1 simulations). This program is intended to bridge 
 until that code is better-integrated into CM1, though could be used 
